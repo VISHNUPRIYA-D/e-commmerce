@@ -8,7 +8,7 @@ import Login from './components/Login'
 import List from './pages/List'
 import { ToastContainer } from 'react-toastify';
 
-export const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3500'
+export const backendUrl = process.env.REACT_APP_BACKEND_URL || "https://e-commmerce-tbns.onrender.com"
 
 const App = () => {
   const [token,setToken] = useState(localStorage.getItem('token') ? localStorage.getItem('token') : '');
