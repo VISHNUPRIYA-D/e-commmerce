@@ -8,7 +8,7 @@ const ShopContextProvider = (props) => {
   const currency = "₹";
   const delivery_fee = 10;
   const backendUrl =
-    process.env.REACT_APP_BACKEND_URL || "http://localhost:3500";
+    process.env.REACT_APP_BACKEND_URL ||"https://e-commmerce-tbns.onrender.com";
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
   const [cartItem, setCartItem] = useState({});
